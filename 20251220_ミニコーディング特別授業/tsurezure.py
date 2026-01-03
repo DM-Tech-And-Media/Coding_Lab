@@ -22,7 +22,11 @@ print("【「心」の出現回数】", count_kokoro)
 print("【文のリスト】", sentences)
 print("【クイズ：この文の次は？】", quiz)
 
-
+"""
+問題6：国語２の授業とつなげて
+「古典で言う“語句の出現回数を調べる”のは、
+ Python ではどの処理にあたるか？」
+"""
 # 正解①：count() を使う方法（最も基本）
 text = "つれづれなるままに、心にうつりゆくよしなしごとを"
 count = text.count("心")
@@ -55,5 +59,6 @@ for c in text:
         result[c] = 1
 
 print(result["心"])
+
 
 
